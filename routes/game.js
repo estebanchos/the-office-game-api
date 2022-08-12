@@ -72,6 +72,7 @@ router.route('/check:id')
         if (found.answer === answer) {
             score += timer / 2
         }
+        console.log(score)
         res.status(201).send(`${score}`)
     })
 
