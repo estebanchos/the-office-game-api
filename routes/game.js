@@ -30,6 +30,8 @@ function newChars(correctChar) {
 // score counter
 let score = 0
 
+// ******* ROUTES *******
+
 // send initial questions
 router.route('/start')
     .get((_req, res) => {
@@ -72,7 +74,6 @@ router.route('/check:id')
         if (found.answer === answer) {
             score += timer / 2
         }
-        console.log(score)
         res.status(201).send(`${score}`)
     })
 
@@ -96,6 +97,7 @@ router.route('/leaderboard')
         res.status(201).send(JSON.stringify(position))
     })
 
+    // get leaderboard data
 router.route('/leaderboard')
     .get((_req, res) => {
         const leaderFile = fs.readFileSync('./data/leaderboard.json')
