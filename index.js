@@ -4,8 +4,8 @@ const cors = require('cors')
 const PORT = 8080
 
 const corsOptions = {
-    origin: '*',
-    optionSuccessStatus: 200
+    'origin': '*',
+    'optionSuccessStatus': 204
 }
 
 // Middleware
