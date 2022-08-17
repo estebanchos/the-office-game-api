@@ -3,9 +3,15 @@ const app = express();
 const cors = require('cors')
 const PORT = 8080
 
+const corsOptions = {
+    origin: '*',
+    credentials: true,
+    optionSuccessStatus: 200
+}
+
 // Middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors(corsOptions))
 
 const gameRoute = require('./routes/game')
 app.use('/game', gameRoute)
