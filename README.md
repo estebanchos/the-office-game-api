@@ -13,7 +13,7 @@ Front-end repo: [The-Office-Game](https://github.com/JimmyZ98/The-Office-Game "T
   * Users need to match the quote to the correct character.
   * More points are awarded for faster answers.
   * Users can enter the leaderboard and will see an alert letting them know their position on the leaderboard.
-* *Note: Post hackathon, we cleaned up some of the remaining bugs and improved the styling of the web app a bit to keep our code as close as what we presented in the hackathon.* 
+* *Note: Post hackathon, we cleaned up some of the remaining bugs and improved the styling of the web app just a bit, because we wanted to keep our code as close as what we presented in the hackathon.* 
 
 ## Features
 * Multiple-question trivia game
