@@ -24,6 +24,7 @@ Front-end repo: [The-Office-Game](https://github.com/JimmyZ98/The-Office-Game "T
 ### Front-end
 * React
 * JavaScript ES6
+* HTML5
 * Sass
 * CSS3
 
@@ -60,10 +61,11 @@ Clone repo locally:
 `npm run dev`
 
 ## Lessons Learned
-* 
-* 
+* During the planning phase of the hackathon, we discussed which features we wanted to include in our trivia game. However, we had not budgeted how long it would take to build out each feature. As a result, we were not able to build out everything that we had originally planned and didn't spend as much time on the styling component as we had hoped to. Going forward, we have learned to budget time for each task and how to prioritize tasks so that we could create a minimal viable project that we could improve upon.
+* This project was one of our first opportunities to work in a collaborative environment after learning about Gitflow. As such we ran into merge conflicts throughout the project and even encountered some bugs that didn't exist when working on our individual local repositories. This ended up slowing us down as we had to spend time resolving the issues before proceeding. Going forward, we have learned the importance of keeping code and branches well organized, as well as communicating clearly with team members in order to have a smooth collaborative working environment.
 
 ## Contact Info
 
 [Carlos](https://www.linkedin.com/in/carlosocampo/ "Carlos")
+
 [Jimmy](https://www.linkedin.com/in/jimmyzhen/ "Jimmy")
